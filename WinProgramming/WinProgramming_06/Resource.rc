@@ -1,0 +1,130 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 310, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,199,156,50,14
+    PUSHBUTTON      "취소",IDCANCEL,253,156,50,14
+    GROUPBOX        "curve",IDC_STATIC,18,16,272,46
+    CONTROL         "sin",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,31,35,25,10
+    CONTROL         "zigzag",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,93,33,37,10
+    CONTROL         "spring",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,159,32,36,10
+    CONTROL         "DoubleLine",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,237,32,51,10
+    CONTROL         "Red",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,25,133,29,10
+    CONTROL         "Green",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,89,133,35,10
+    CONTROL         "Blue",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,133,30,10
+    CONTROL         "반전",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,213,134,29,10
+    PUSHBUTTON      "Move_x",IDC_BUTTON1,15,89,50,14
+    PUSHBUTTON      "Move_y",IDC_BUTTON2,69,90,50,14
+    PUSHBUTTON      "Stop",IDC_BUTTON3,126,91,50,14
+    PUSHBUTTON      "Reset",IDC_BUTTON4,183,92,50,14
+    PUSHBUTTON      "원이동",IDC_BUTTON5,238,89,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 303
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
